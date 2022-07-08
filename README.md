@@ -14,11 +14,13 @@ These android workers can do activities during full day, all days of the year. B
 needs to rest some time to recharge its batteries. Independently of the duration of the activity, the charge period will be 
 2 hours after finishing to build a component and 4 hours after building a machine.
 
-## Solution Scope
- * The application should allow to schedule activities in any time (future or past). When an activity is created it must be possible to indicate
- the start and end times, the type of activity and the worker (or list of workers) that is performing that activity.
- * It should be possible to modify the times of one existing activity
- * And also, it should be possible to delete an existing activity.
+## Solution Scope (MVP)
+* The application should allow to schedule activities in any time (future or past). 
+* When an activity is created it must be possible to indicate the start and end times, the type of activity and the worker (or list of workers) that is performing that activity.
+
+#### Having Fun? It's not mandatory, but you can increase the solution scope with some of the below points.
+ * It is possible to modify the times of one existing activity
+ * It is possible to delete an existing activity.
  * The application should indicate when a worker's activity conflicts with other activities of the same worker, because their times overlap.
  These conflicts will help the users of the application to adjust the times of the activities so the issue can be solved.
  * The application should show a list of the top 10 androids that are working more time in the next 7 days.
